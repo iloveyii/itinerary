@@ -1,6 +1,6 @@
 {
-    "name": "yiisoft/yii2-app-advanced",
-    "description": "Yii 2 Advanced Project Template",
+    "name": "yiisoft/yii2-hw03",
+    "description": "Yii 2 application to find shortest path between two nodes",
     "keywords": ["yii2", "framework", "advanced", "project template"],
     "homepage": "http://www.yiiframework.com/",
     "type": "project",
@@ -17,7 +17,8 @@
         "php": ">=5.4.0",
         "yiisoft/yii2": "~2.0.6",
         "yiisoft/yii2-bootstrap": "~2.0.0",
-        "yiisoft/yii2-swiftmailer": "~2.0.0 || ~2.1.0"
+        "yiisoft/yii2-swiftmailer": "~2.0.0 || ~2.1.0",
+        "kartik-v/yii2-widget-select2": "@dev"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",
@@ -36,6 +37,15 @@
         {
             "type": "composer",
             "url": "https://asset-packagist.org"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:doctrine/orientdb-odm.git"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "Doctrine\\": "orientdb-odm/src/Doctrine"
+        }
+    }
 }
