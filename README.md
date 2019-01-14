@@ -7,6 +7,21 @@ This is a PHP / Yii 2 application to find the shortest path between departure an
 
 # [DEMO](http://itinerary.softhem.se)
 
+
+
+INSTALLATION
+------------
+
+  * Clone the repository `git clone git@github.com:iloveyii/itinerary.git`.
+  * Run composer install `composer install`.
+  * Then run composer command `composer dump-autoload`.
+  * Init the Yii app `php init`.
+  * Create a database (manually for now) and adjust the database credentials in the `common/config/main-local.php` file as per your environment.
+  * Run the migration command to create the database table as `./yii migrate`.
+  * Point web browser to frontend/web directory or Create a virtual host using [vh](https://github.com/iloveyii/vh) `vh new itinerary -p ~/sportspoll/frontend/web`
+  * Browse to [http://itinerary.loc](http://itinerery.loc).
+  
+
 DIRECTORY STRUCTURE
 -------------------
 
