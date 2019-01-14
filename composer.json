@@ -47,5 +47,8 @@
         "psr-4": {
             "Doctrine\\": "orientdb-odm/src/Doctrine"
         }
+    },
+    "scripts": {
+        "post-install-cmd": "git clone git@github.com:doctrine/orientdb-odm.git && cd orientdb-odm && composer install"
     }
 }
