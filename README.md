@@ -3,9 +3,9 @@ HW03
 
 This is a PHP / Yii 2 application to find the shortest path between departure and destination airports using Djikstras algorithm.
 
-![Screenshot]()
+![Screenshot](http://itinerary.softhem.se/images/screenshot.png)
 
-# [DEMO]()
+# [DEMO](http://itinerary.softhem.se)
 
 DIRECTORY STRUCTURE
 -------------------
